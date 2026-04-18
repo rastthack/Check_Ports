@@ -99,4 +99,4 @@ Example output:
 - Some networks/firewalls may block or rate-limit scan traffic.
 
 ## Quick Start
-python3 check_ports.py 127.0.0.1 "1-1000" 0.1 300
+python3 check_ports.py host ports( "22,80") or ("1-100") 
